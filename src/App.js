@@ -46,6 +46,7 @@ function App() {
       <div className="section">
         <h2>Difficulties Encountered:</h2>
         <p>One challenge was getting my final URL to work. I fixed this by going to the repository settings on GitHub and enabling the option for "Use your GitHub Pages website."</p>
+        <p>Another challenge was connecting my react app to github which involved adding the link to my`package.json` file, I had to some debugging and figure out where in the script code I was supposed to add it."</p>
       </div>
     </div>
   );
