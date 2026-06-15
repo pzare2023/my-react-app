@@ -229,7 +229,7 @@ a {
 }
 
 .project-card p,
-.timeline-list p:last-child {
+.timeline-description {
   color: var(--muted);
   line-height: 1.65;
   margin: 0;
@@ -245,6 +245,25 @@ a {
 .tag-list {
   margin-top: auto;
   padding-top: 1.5rem;
+}
+
+.project-link {
+  align-self: flex-start;
+  color: var(--accent-dark);
+  font-size: 0.95rem;
+  font-weight: 800;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+
+.project-link + .project-link {
+  margin-top: 0.45rem;
+}
+
+.project-link:hover,
+.project-link:focus {
+  color: var(--coral);
+  text-decoration: underline;
 }
 
 .tag-list span,
@@ -270,6 +289,41 @@ a {
 
 .timeline-list article {
   padding: 1.5rem;
+}
+
+.activity-gallery {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 1.25rem;
+}
+
+.activity-photo {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 18px 50px var(--shadow);
+  margin: 0;
+  overflow: hidden;
+}
+
+.activity-photo img {
+  aspect-ratio: 4 / 3;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.activity-photo:nth-child(3n) img {
+  aspect-ratio: 3 / 4;
+}
+
+.activity-photo figcaption {
+  color: var(--accent-dark);
+  font-size: 0.88rem;
+  font-weight: 800;
+  padding: 0.85rem 1rem 1rem;
 }
 
 .contact {
@@ -300,8 +354,14 @@ a {
   .about,
   .split-section,
   .project-grid,
-  .timeline-list {
+  .timeline-list,
+  .activity-gallery {
     grid-template-columns: 1fr;
+  }
+
+  .activity-photo img,
+  .activity-photo:nth-child(3) img {
+    aspect-ratio: 4 / 3;
   }
 
   .hero {
