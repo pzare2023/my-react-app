@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/my-react-app/static/css/main.6483eda8.css",
-    "main.js": "/my-react-app/static/js/main.415b54d6.js",
-    "static/js/453.ad6eb26e.chunk.js": "/my-react-app/static/js/453.ad6eb26e.chunk.js",
+    "main.css": "/my-react-app/static/css/main.387e9ebc.css",
+    "main.js": "/my-react-app/static/js/main.c70a030f.js",
+    "static/js/453.b9256582.chunk.js": "/my-react-app/static/js/453.b9256582.chunk.js",
+    "static/media/workshops.JPG": "/my-react-app/static/media/workshops.6b31694631ab66d122e1.JPG",
     "static/media/IMG_6714.jpg": "/my-react-app/static/media/IMG_6714.29c06898bc657b87445c.jpg",
+    "static/media/photo_2025-03-13 00.13.55 (1).jpeg": "/my-react-app/static/media/photo_2025-03-13 00.13.55 (1).a561779496bc0aaba523.jpeg",
+    "static/media/2025-09-12 16.56.43 (1).jpg": "/my-react-app/static/media/2025-09-12 16.56.43 (1).5ff25e12413b0eef5c67.jpg",
+    "static/media/photo_2025-03-13 00.13.43 (1).jpeg": "/my-react-app/static/media/photo_2025-03-13 00.13.43 (1).51adcb053b1681922227.jpeg",
+    "static/media/build a bridge presentation.jpg": "/my-react-app/static/media/build a bridge presentation.d11090a356a0d56cc9f2.jpg",
+    "static/media/build bridge me.jpg": "/my-react-app/static/media/build bridge me.ecb04c581b43294ebac4.jpg",
     "index.html": "/my-react-app/index.html",
-    "main.6483eda8.css.map": "/my-react-app/static/css/main.6483eda8.css.map",
-    "main.415b54d6.js.map": "/my-react-app/static/js/main.415b54d6.js.map",
-    "453.ad6eb26e.chunk.js.map": "/my-react-app/static/js/453.ad6eb26e.chunk.js.map"
+    "main.387e9ebc.css.map": "/my-react-app/static/css/main.387e9ebc.css.map",
+    "main.c70a030f.js.map": "/my-react-app/static/js/main.c70a030f.js.map",
+    "453.b9256582.chunk.js.map": "/my-react-app/static/js/453.b9256582.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6483eda8.css",
-    "static/js/main.415b54d6.js"
+    "static/css/main.387e9ebc.css",
+    "static/js/main.c70a030f.js"
   ]
 }
